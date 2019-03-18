@@ -73,10 +73,10 @@ class App extends Component {
   render() {
     return (
       <div className="App container">
-        <div class="row">
+        <div className="row">
           <span>Moves: {this.state.moves} </span>
         </div>
-        <div class="row">{this.renderTiles()}</div>
+        <div className="row">{this.renderTiles()}</div>
       </div>
     );
   }

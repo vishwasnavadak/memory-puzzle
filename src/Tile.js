@@ -9,8 +9,8 @@ class Tile extends Component {
   render() {
     return (
       <div>
-        <div class="card tile" onClick={this.toggleReveal}>
-          <div class="card-content">
+        <div className="card tile" onClick={this.toggleReveal}>
+          <div className="card-content">
             {this.props.reveal && <p>{this.props.logo}</p>}
           </div>
         </div>
